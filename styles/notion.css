@@ -8,7 +8,7 @@
  */
 
 .notion {
-  --notion-max-width: 1900px;
+  --notion-max-width: 1600px;
   --notion-header-height: 54px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .index-page {
-  --notion-max-width: 1900px;
+  --notion-max-width: 1600px;
 }
 
 .notion-text {
@@ -80,6 +80,7 @@
 .notion-collection-card {
   border-radius: 16px;
   box-shadow: none;
+  padding-bottom: 20px;
 }
 
 .notion-collection-card-cover img {
@@ -106,7 +107,7 @@
 }
 
 .notion-collection-card-body {
-  padding: 10px;
+  padding: 20px;
 }
 
 /* only target safari */
