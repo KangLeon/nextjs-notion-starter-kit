@@ -21,7 +21,7 @@ export default siteConfig({
   domain: 'kang.jiyoung.cn',
   author: 'JY',
 
-  // open graph metadata (optional)
+  // open graph metadata (optional)å
   description: 'Do Something',
 
   // social usernames (optional)
