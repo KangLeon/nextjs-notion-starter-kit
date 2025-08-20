@@ -14,7 +14,7 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: 'b0d92122-00e1-4453-bc86-7fccfeca29e9',
 
   // basic site info (required)
   name: 'KangLeon',
@@ -58,14 +58,14 @@ export default siteConfig({
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
   navigationStyle: 'default',
   // navigationStyle: 'custom',
-   navigationLinks: [
-     {
-       title: 'About',
-       pageId: '70a693b824d145aaa66f3880c97717a5'
-     },
-     {
-       title: 'Contact',
-       pageId: 'a4c4f55b7f08440e846a4a13ed24b1ee'
-     }
-   ]
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: '70a693b824d145aaa66f3880c97717a5'
+    },
+    {
+      title: 'Contact',
+      pageId: 'a4c4f55b7f08440e846a4a13ed24b1ee'
+    }
+  ]
 })
